@@ -6,6 +6,9 @@ __pycache__/
 # Useless mac file
 .DS_Store
 
+credentials.json
+token.json
+
 # C extensions
 *.so
 
@@ -106,6 +109,9 @@ celerybeat.pid
 
 # Environments
 .env
+.env*
+.env.test
+.token*
 .venv
 env/
 venv/
